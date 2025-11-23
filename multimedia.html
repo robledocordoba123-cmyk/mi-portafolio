@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Galería Multimedia</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="about.html">Sobre mí</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="multimedia.html">Multimedia</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- VIDEO LOCAL -->
+        <section>
+            <h2>Video local</h2>
+            <p>Este es un video de una de mis clases de baile.</p>
+
+            <video src="media/video-portafolio.mp4.mp4" width="400" controls poster="img/mis-fotos-portafolio/foto1.jpeg">
+                Tu navegador no soporta el video.
+            </video>
+        </section>
+
+        <!-- AUDIO -->
+        <section>
+            <h2>Audio</h2>
+            <p>Un audio simple para cumplir con el requisito.</p>
+
+            <audio controls>
+                <source src="media/audio.mp3.ogg" type="audio/ogg">
+                Tu navegador no soporta audio.
+            </audio>
+        </section>
+
+        <!-- VIDEO YOUTUBE -->
+        <section>
+            <h2>Video de YouTube</h2>
+            <p>Este es el video de la clase que me compartiste.</p>
+
+            <iframe width="420" height="250" 
+                src="https://www.youtube.com/embed/SbzHys1L2lk"
+                title="Clase de Baile"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <!-- GOOGLE MAPS -->
+        <section>
+            <h2>Mapa de Google Maps</h2>
+            <p>Ubicación de una academia donde doy clases.</p>
+
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7162385328035!2d-74.081749!3d4.648625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99ffce52d21b%3A0x8da3e7f3a8c5d61c!2sBogot%C3%A1%20Dance%20Studio!5e0!3m2!1ses!2sco!4v1700000000000"
+                width="420"
+                height="250"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </section>
+
+        <!-- GALERÍA DE FOTOS -->
+        <section>
+            <h2>Galería de fotos</h2>
+
+            <div class="galeria">
+                <img src="img/mis-fotos-portafolio/foto1.jpeg" alt="Foto posando">
+                <img src="img/mis-fotos-portafolio/foto2.jpeg" alt="Foto bailando en concierto">
+                <img src="img/mis-fotos-portafolio/foto3.jpeg" alt="Foto con Feid">
+                <img src="img/mis-fotos-portafolio/foto4.jpeg" alt="Presentación en vivo">
+                <img src="img/mis-fotos-portafolio/foto1.jpeg" alt="Foto repetida 1">
+                <img src="img/mis-fotos-portafolio/foto2.jpeg" alt="Foto repetida 2">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 – Portafolio de Manuela Córdoba</p>
+    </footer>
+
+</body>
+</html>
+
