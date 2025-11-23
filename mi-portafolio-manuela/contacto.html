@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="about.html">Sobre mí</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="multimedia.html">Multimedia</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Escríbeme</h2>
+        <p>Si deseas información sobre clases, presentaciones o colaboraciones, completa este formulario.</p>
+
+        <form action="#" method="post">
+
+            <!-- DATOS PERSONALES -->
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" min="10" max="80">
+            </fieldset>
+
+            <!-- INFORMACIÓN DE CONTACTO -->
+            <fieldset>
+                <legend>Información adicional</legend>
+
+                <label for="fecha">Fecha del mensaje:</label>
+                <input type="date" id="fecha" name="fecha">
+
+                <label for="servicio">Servicio que te interesa:</label>
+                <select id="servicio" name="servicio" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="clases">Clases de baile</option>
+                    <option value="shows">Shows y presentaciones</option>
+                    <option value="artistas">Bailarina para artistas</option>
+                    <option value="contenido">Creación de contenido</option>
+                </select>
+
+                <p>¿Has tomado clases antes?</p>
+                <label><input type="radio" name="experiencia" value="si" required> Sí</label>
+                <label><input type="radio" name="experiencia" value="no"> No</label>
+
+                <p>¿Qué estilo te interesa?</p>
+                <label><input type="checkbox" name="estilo" value="urbano"> Urbano</label>
+                <label><input type="checkbox" name="estilo" value="reggaeton"> Reggaetón</label>
+                <label><input type="checkbox" name="estilo" value="femenino"> Flow Femenino</label>
+                <label><input type="checkbox" name="estilo" value="otro"> Otro</label>
+            </fieldset>
+
+            <!-- MENSAJE -->
+            <fieldset>
+                <legend>Mensaje</legend>
+
+                <label for="mensaje">Escribe tu mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </fieldset>
+
+            <!-- BOTONES -->
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>© 2025 – Portafolio de Manuela Córdoba</p>
+    </footer>
+
+</body>
+</html>
