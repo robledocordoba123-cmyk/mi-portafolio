@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Manuela Exotic</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Bienvenidos a mi página web</h1>
+        <p>Proyecto final HTML5 – Manuela Córdoba</p>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <a href="index.html">Inicio</a> |
+        <a href="about.html">Sobre mí</a> |
+        <a href="servicios.html">Servicios</a> |
+        <a href="multimedia.html">Multimedia</a> |
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <!-- SECCIÓN DE PRESENTACIÓN -->
+    <section id="presentacion">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy <strong>Manuela Córdoba</strong>, conocida como <strong>Manuela Exotic</strong> en redes sociales. Soy bailarina profesional con 9 años de experiencia, creadora de contenido y profesora en academias. He participado en shows, conciertos y eventos importantes en Colombia.</p>
+    </section>
+
+    <!-- GALERÍA DE FOTOS -->
+    <section id="galeria">
+        <h2>Mi Galería</h2>
+
+        <figure>
+            <img src="img/mis-fotos-portafolio/foto1.jpeg" width="350" alt="Show de baile en Nechí">
+            <figcaption>Show de baile en Nechí</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/mis-fotos-portafolio/foto2.jpeg" width="350" alt="Concierto con compañeros y artista invitado">
+            <figcaption>Concierto con compañeros y artista invitado</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/mis-fotos-portafolio/foto3.jpeg" width="350" alt="Presentación con Feid">
+            <figcaption>Presentación con Feid</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/mis-fotos-portafolio/foto4.jpeg" width="350" alt="Baile en concierto">
+            <figcaption>Baile en concierto</figcaption>
+        </figure>
+    </section>
+
+    <!-- AUDIO -->
+    <section id="audio">
+        <h2>Audio Personal</h2>
+        <audio controls>
+            <source src="media/audio.mp3.ogg" type="audio/ogg">
+            Tu navegador no soporta audio.
+        </audio>
+    </section>
+
+    <!-- VIDEO DE CLASE DE BAILE -->
+    <section id="video">
+        <h2>Clase de baile – Video</h2>
+        <video width="560" controls poster="img/mis-fotos-portafolio/foto1.jpeg">
+            <source src="media/video-portafolio.mp4.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+    </section>
+
+    <!-- VIDEO DE YOUTUBE -->
+    <section>
+        <h2>Video desde YouTube</h2>
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/SbzHys1L2lk"
+            frameborder="0" allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- REDES SOCIALES -->
+    <section id="redes">
+        <h2>Sígueme en mis redes</h2>
+        <ul>
+            <li><strong>TikTok:</strong> @manuelaexotic</li>
+            <li><strong>Facebook:</strong> Manuela Exotic</li>
+            <li><strong>YouTube:</strong> Manuela Exotic</li>
+            <li><strong>WhatsApp:</strong> 3114055809</li>
+            <li><strong>Correo:</strong> robledocordoba223@gmail.com</li>
+        </ul>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section id="contacto">
+        <h2>Formulario de Contacto</h2>
+
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>© 2025 – Página creada por Manuela Exotic</p>
+    </footer>
+
+</body>
+</html>
