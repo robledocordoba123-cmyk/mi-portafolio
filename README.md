@@ -45,8 +45,7 @@ mi-portafolio/
 
 ## Tecnologías Usadas
 
-- **HTML5**: Estructura de las páginas.  
-- **CSS3**: Estilos y diseño responsive.  
+- **HTML5**: Estructura de las páginas.   
 - **Multimedia**: Integración de fotos, audio y video.
 
 ---
@@ -56,4 +55,5 @@ mi-portafolio/
 **Manuela Córdoba**  
 Estudiante SENA – Proyecto final de desarrollo web  
 [GitHub](https://github.com/robledocordoba123-cmyk)
+
 
